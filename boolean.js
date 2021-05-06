@@ -22,3 +22,38 @@ console.log(false && true)  // true
 console.log(false && false) // false
 console.log(!true)          // false
 console.log(!false)         // true
+
+// 0
+if (0) {
+    console.log('Result: true')
+} else {
+    console.log('Result: false')
+}
+
+// NaN
+if (NaN) {
+    console.log('Result: true')
+} else {
+    console.log('Result: false')
+}
+
+// null
+if (null) {
+    console.log('Result: true')
+} else {
+    console.log('Result: false')
+}
+
+// undefined
+if (undefined) {
+    console.log('Result: true')
+} else {
+    console.log('Result: false')
+}
+
+// ''
+if ('') {
+    console.log('Result: true')
+} else {
+    console.log('Result: false')
+}
