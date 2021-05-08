@@ -57,3 +57,25 @@ if ('') {
 } else {
     console.log('Result: false')
 }
+
+var hasPermission = true
+var message = hasPermission ? 'Access allowed' : 'Access denided'
+console.log(message)
+
+var color = 'Green'
+switch (color) {
+    case 'red':
+        console.log('Color is red')
+        break;
+    case 'yellow':
+        console.log('Color is yellow')
+        break;
+    case 'Green':
+    case 'GREEN':
+    case 'green':
+        console.log('Color is green')
+        break;
+    default:
+        console.log('Unknown color')
+        break;
+}
